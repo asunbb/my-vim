@@ -83,3 +83,6 @@ set incsearch
 " 语法高亮
 syntax on 
 
+" 右下角显示按键命令
+set showcmd
+
