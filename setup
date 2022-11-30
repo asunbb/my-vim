@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 该脚本用于初始化 vim 环境
+# 该脚本用于初始化 vim 环境，注意插件的依赖需求
 
 # 创建符号链接覆盖用户默认 vim 配置文件
 ln -sf $PWD/.vimrc ~/.vimrc
