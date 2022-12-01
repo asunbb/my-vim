@@ -11,4 +11,4 @@
 
 该插件安装目录，也即 `~/.vim/plugged/vimspector/support/test/cpp` 中有官方提供的用于调试配置的模板文件 `.vimspector.json`。复制一份这个文件放置在代码工程根目录中，根据个人情况适当修改。特别地，若不需要启动调试器时自动编译，则文件中字段 BUILDME 需要删除。
 
-该插件运行时创建多个窗口和快捷按键，需要鼠标进行点击。运行 `:set mouse=a` 开启 vim 鼠标功能，详情可以参考 `:help mouse` 。
+该插件运行时创建多个窗口和快捷按键，需要鼠标进行点击或拖动。运行 `:set mouse=a` 开启 vim 鼠标功能，详情可以参考 `:help mouse` 。
