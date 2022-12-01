@@ -14,3 +14,8 @@
 该插件运行时创建多个窗口和快捷按键，需要鼠标进行点击或拖动。运行 `:set mouse=a` 开启 vim 鼠标功能，详情可以参考 `:help mouse` 。
 
 为了便于调试，需要视情况调整按键映射，可以参考[官方文档](https://github.com/puremourning/vimspector#mappings)。
+
+参考命令调用：
+- `:call vimspector#Launch()` # 启动调试
+- `:call vimspector#Restart()`
+- `:call vimspector#Stop()`
