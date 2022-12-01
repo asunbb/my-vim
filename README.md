@@ -7,7 +7,7 @@
 
 主要参考文章 [Debugging in Vim with Vimspector](https://dev.to/iggredible/debugging-in-vim-with-vimspector-4n0m)。
 
-插件安装完成后，运行 `:VimspectorInstall vscode-cpptools`，安装用于调试 c/c++ 代码的 vscode debug adapter。其他语言环境调试参考官方文档安装对应产检。
+插件安装完成后，运行 `:VimspectorInstall vscode-cpptools`，安装用于调试 c/c++ 代码的 vscode debug adapter。其他语言环境调试参考官方文档安装对应插件。
 
 vimspector 安装目录，也即 `~/.vim/plugged/vimspector/support/test/cpp` 目录中有官方提供的用于调试配置的模板文件 `.vimspector.json`。复制一份这个文件放置在代码工程根目录中，根据个人情况适当修改，若不需要启动调试器时自动编译，则文件中字段 BUILDME 需要删除。
 
