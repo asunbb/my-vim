@@ -15,6 +15,18 @@
 
 为了便于调试，需要视情况调整按键映射，可以参考[官方文档](https://github.com/puremourning/vimspector#mappings)。
 
+## Windows 平台设置
+
+```bash
+# 任意位置鼠标右键打开 PowerShell，执行下面命令，打开管理员权限的 PowerShell
+start-process PowerShell -verb runas
+```
+
+```bash
+# 建立一个可访问的符号链接
+New-Item .vimrc -Itemtype SymbolicLink -Target f:\bbx\my-vim\.vimrc-windows
+```
+
 参考命令调用：
 - `:call vimspector#Launch()` # 启动调试
 - `:call vimspector#Restart()`

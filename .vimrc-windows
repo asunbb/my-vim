@@ -1,0 +1,45 @@
+
+
+# 任意位置鼠标右键打开 PowerShell，执行下面命令，打开管理员权限的 PowerShell
+start-process PowerShell -verb runas
+
+# 建立一个可访问的符号链接
+New-Item .vimrc -Itemtype SymbolicLink -Target f:\bbx\my-vim\.vimrc-windows
+
+" 搜索中忽略大小写
+set ignorecase 
+
+" 搜索中智能感知大小写
+set smartcase 
+
+" 已经存在的 tab 按键替换的空格字符宽度
+set tabstop=2 
+
+" 按键 > 缩进时使用的空格数量
+set shiftwidth=2 
+
+" 当键入 tab 时替换为空格
+set expandtab 
+
+" backspace 或 bs，影响插入模式下的 <BS>, <Del>, CTRL-W 和 CTRL-U 的工作方式，详见:
+"  https://vimhelp.org/options.txt.html#%27backspace%27
+set backspace=indent,eol,start 
+
+" 显示行号
+set number 
+
+" 搜素高亮
+set hlsearch 
+
+" 显示光标行
+set cursorline 
+
+" 增量搜索
+set incsearch 
+
+" 语法高亮
+syntax on 
+
+" 右下角显示按键命令
+set showcmd
+
