@@ -43,8 +43,8 @@ call plug#begin()
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
 
 " 用于各种脚本或语言调试
-let g:vimspector_enable_mappings = 'HUMAN'
-Plug 'puremourning/vimspector'
+" let g:vimspector_enable_mappings = 'HUMAN'
+" Plug 'puremourning/vimspector'
 
 " vim-plug 插件管理器运行结束
 call plug#end()
