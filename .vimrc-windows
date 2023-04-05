@@ -1,11 +1,4 @@
 
-
-# 任意位置鼠标右键打开 PowerShell，执行下面命令，打开管理员权限的 PowerShell
-start-process PowerShell -verb runas
-
-# 建立一个可访问的符号链接
-New-Item .vimrc -Itemtype SymbolicLink -Target f:\bbx\my-vim\.vimrc-windows
-
 " 搜索中忽略大小写
 set ignorecase 
 

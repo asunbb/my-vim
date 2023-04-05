@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# 用于 windows 平台 cygwin 环境 bash 设置的初始化
+
+# 把 cygwin 的 bin 目录设置为优先搜索
+PATH=/usr/bin:$PATH
+
+# 一些常用的快捷别名
+alias ls='ls -hF --color=tty'                 
+alias ll='ls -al'                              
+alias la='ls -A'                              
+alias l='ls -CF'                              
+
