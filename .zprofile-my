@@ -1,0 +1,9 @@
+
+# 设置非默认的 brew 仓库地址
+export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+
+# 把 homebrew 的命令放在搜索最前面
+export PATH=/opt/homebrew/bin:$PATH
+
